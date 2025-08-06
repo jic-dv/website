@@ -13,7 +13,7 @@ export function useNavigation() {
                 {
                     title: t('Navigation.projectsCompany.title'),
                     description: t('Navigation.projectsCompany.description'),
-                    url: '#proyectos',
+                    url: '#projects',
                 },
             ],
         },

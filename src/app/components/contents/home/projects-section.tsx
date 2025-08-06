@@ -18,7 +18,7 @@ export default function ProjectsSection() {
     const rawProjects = t.raw('Projects.list') as IProyect[]
 
     return (
-        <Section id='frontend' className='mt-14 lg:mt-20'>
+        <Section id='projects' className='mt-14 lg:mt-20'>
             <SectionTitle
                 title={t('Projects.title')}
                 subtitle={t('Projects.subtitle', {
