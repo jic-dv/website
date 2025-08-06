@@ -124,7 +124,7 @@ export default function HeroSection() {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.3, delay: 1.4 }}
-                        className='hidden lg:flex absolute top-6 left-6 z-20 w-[90%] max-w-xs rounded-2xl border-white/20 bg-white/10 backdrop-filter bg-opacity-10 dark:bg-neutral-900/60 backdrop-blur border shadow-md p-4 items-center gap-4'
+                        className='hidden lg:flex absolute top-6 left-6 z-20 w-auto max-w-xs rounded-2xl border-white/20 bg-white/10 backdrop-filter bg-opacity-10 dark:bg-neutral-900/60 backdrop-blur border shadow-md p-4 items-center gap-4'
                     >
                         <Image
                             src='/images/hero/avatar-me.png'
@@ -132,6 +132,7 @@ export default function HeroSection() {
                             width={64}
                             height={64}
                             className='rounded-full border border-none dark:border-gray-700'
+                            title='avatar'
                         />
                         <div className='text-left'>
                             <h3 className='text-sm font-semibold text-white'>
@@ -145,12 +146,13 @@ export default function HeroSection() {
                     <div className='relative w-full overflow-hidden rounded-xl border border-neutral-300 dark:border-neutral-700 z-0'>
                         <Image
                             src='/images/hero/hero-cover.webp'
-                            alt='Landing page preview'
+                            alt='hero'
                             width={1536}
                             height={1024}
                             className='aspect-[16/9] w-full h-auto object-cover'
                             sizes='(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 100vw'
                             priority
+                            title='hero'
                         />
                     </div>
                 </motion.div>

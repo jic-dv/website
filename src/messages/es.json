@@ -1,7 +1,7 @@
 {
     "Metadata": {
         "title": "José Ignacio Contreras | Desarrollador Frontend React.js",
-        "description": "Portafolio profesional de José Ignacio Contreras, desarrollador web frontend en React.js, Next.js y TypeScript. Disponible para oportunidades laborales en Chile o de forma remota."
+        "description": "Portafolio profesional de José Ignacio Contreras, desarrollador web frontend en React.js, Next.js y TypeScript."
     },
     "Theme": {
         "toggle": "Cambiar tema",
@@ -94,7 +94,8 @@
                 ],
                 "links": {
                     "websiteUrl": "https://bidata.cl/",
-                    "deploymentUrl": "https://procanje.app/iniciar-sesion"
+                    "deploymentUrl": "https://procanje.app/iniciar-sesion",
+                    "title": "bidata"
                 }
             },
             {
@@ -110,7 +111,8 @@
                 ],
                 "links": {
                     "websiteUrl": "https://pulsoinversor.cl/",
-                    "deploymentUrl": "https://webpage-propiedades-pulso-inversor.vercel.app/"
+                    "deploymentUrl": "https://webpage-propiedades-pulso-inversor.vercel.app/",
+                    "title": "propiedades-pulso-inversor"
                 }
             },
             {
@@ -126,7 +128,8 @@
                 ],
                 "links": {
                     "websiteUrl": "https://www.acteccu.com/",
-                    "deploymentUrl": "https://www.acteccu.com/"
+                    "deploymentUrl": "https://www.acteccu.com/",
+                    "title": "acteccu"
                 }
             },
             {
@@ -142,7 +145,8 @@
                 ],
                 "links": {
                     "websiteUrl": "https://u-food.cl/dutch",
-                    "deploymentUrl": "https://u-food.cl/dutch"
+                    "deploymentUrl": "https://u-food.cl/dutch",
+                    "title": "u-food"
                 }
             }
         ]

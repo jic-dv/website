@@ -25,6 +25,7 @@ export default function ProjectCard({ project }: { project: IProyect }) {
                             className='object-cover'
                             sizes='(max-width: 768px) 100vw, 400px'
                             priority
+                            title={title}
                         />
                     </div>
                     <CardContent className='p-4 space-y-3'>
@@ -55,6 +56,7 @@ export default function ProjectCard({ project }: { project: IProyect }) {
                                         rel='noopener noreferrer'
                                         className='text-muted-foreground hover:text-primary transition'
                                         aria-label={`Ver Empresa`}
+                                        title={links.title}
                                     >
                                         <TbWorldSearch className='h-5 w-5' />
                                     </a>
@@ -72,6 +74,7 @@ export default function ProjectCard({ project }: { project: IProyect }) {
                                         rel='noopener noreferrer'
                                         className='text-muted-foreground hover:text-primary transition'
                                         aria-label={`Ver ${title} en producción`}
+                                        title={links.title}
                                     >
                                         <LuExternalLink className='h-5 w-5' />
                                     </a>

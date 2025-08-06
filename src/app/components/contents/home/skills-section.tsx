@@ -26,6 +26,7 @@ export default function SkillsSection() {
                                     rel='noopener noreferrer'
                                     className='group relative text-center rounded-2xl bg-gradient-to-r p-[1px] hover:from-purple-500 hover:via-fuchsia-500 hover:to-purple-700 transition-all duration-300 hover:shadow-lg'
                                     aria-label={skill.name}
+                                    title={skill.title}
                                 >
                                     <div className='flex flex-col items-center justify-center gap-2 h-full w-full rounded-2xl border border-border bg-background p-4 transition-colors duration-300 hover:border-purple-500'>
                                         <span className='text-3xl'>{skill.icon}</span>

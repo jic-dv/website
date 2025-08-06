@@ -17,6 +17,7 @@ export default function Footer() {
                             target='_blank'
                             rel='noreferrer'
                             className='font-medium underline underline-offset-4'
+                            title='author'
                         >
                             {t('author.name')}
                         </Link>{' '}

@@ -7,5 +7,6 @@ export interface IProyect {
     links: {
         websiteUrl: string
         deploymentUrl: string
+        title: string
     }
 }
