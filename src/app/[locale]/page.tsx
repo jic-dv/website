@@ -1,13 +1,13 @@
-import { Link } from "@/i18n/navigation";
-import { useTranslations } from "next-intl";
+import HeroSection from '../components/contents/home/hero-section'
+import ProjectsSection from '../components/contents/home/projects-section'
+import SkillsSection from '../components/contents/home/skills-section'
 
-export default function Page() {
-  const t = useTranslations("HomePage");
-
-  return (
-    <div>
-      <h1>{t("title")}</h1>
-      <Link href="/about">{t("about")}</Link>
-    </div>
-  );
+export default function HomePage() {
+    return (
+        <>
+            <HeroSection />
+            <ProjectsSection />
+            <SkillsSection />
+        </>
+    )
 }

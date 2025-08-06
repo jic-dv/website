@@ -1,6 +1,182 @@
 {
+    "Metadata": {
+        "title": "José Ignacio Contreras | Frontend React.js Developer",
+        "description": "Professional portfolio of José Ignacio Contreras, a frontend web developer specialized in React.js, Next.js, and TypeScript. Open to job opportunities in Chile or remote worldwide."
+    },
+    "Theme": {
+        "toggle": "Toggle theme",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+    },
     "HomePage": {
         "title": "Hello world!",
         "about": "Go to the about page"
+    },
+    "Navigation": {
+        "home": "Home",
+        "projects": "Projects",
+        "projectsCompany": {
+            "title": "Companies and Organizations",
+            "description": "Applications and web pages"
+        },
+        "technologies": "Technologies",
+        "frontend": {
+            "title": "Frontend",
+            "description": "Main Skills"
+        }
+    },
+    "Hero": {
+        "greeting": "Hi, I'm José Contreras",
+        "title": "React.js Developer",
+        "description": "I build modern, fast, and scalable web interfaces using cutting-edge technologies, helping companies transform ideas into successful digital products.",
+        "ctaLinkedIn": "Visit my LinkedIn",
+        "ctaCV": "Download CV"
+    },
+    "About": [
+        {
+            "company": {
+                "name": "BIDATA SPA.",
+                "role": "Projects & Control Software Developer",
+                "years": "2022 - Present",
+                "description": [
+                    "Led the development of Procanje, a platform that digitalizes property exchanges...",
+                    "Responsible for migrating the SPC accounting system from legacy C# .NET to a modern stack...",
+                    "Worked with real estate and investment advisors to gather requirements...",
+                    "Led onboarding and mentoring of interns into SCRUM teams and tools like GitHub."
+                ],
+                "stack": [
+                    "React.js",
+                    "Node.js",
+                    "TypeScript",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Git/GitHub"
+                ]
+            }
+        },
+        {
+            "company": {
+                "name": "BIDATA SPA.",
+                "role": "Frontend Developer",
+                "years": "May 2022 - July 2022",
+                "description": [
+                    "Designed and maintained UI interfaces.",
+                    "Implemented usability and fixed aesthetic issues.",
+                    "Worked closely with managers and designers.",
+                    "Reviewed and contributed code across multiple projects."
+                ],
+                "stack": [
+                    "React.js",
+                    "Node.js",
+                    "TypeScript",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Git/GitHub"
+                ]
+            }
+        }
+    ],
+    "Projects": {
+        "title": "Projects",
+        "subtitle": "Latest apps and featured websites",
+        "list": [
+            {
+                "title": "Procanje - Tu aliado en el mundo Inmobiliario",
+                "description": "Sistema completo para gestión de compra y venta de propiedades en línea.",
+                "image": "/images/projects/covers/procanje.svg",
+                "alt": "Vista previa del proyecto inmobiliario",
+                "technologies": [
+                    "React.js",
+                    "Tailwind CSS",
+                    "API RESTful",
+                    "PostgresSQL"
+                ],
+                "links": {
+                    "websiteUrl": "https://www.youtube.com/@procanje",
+                    "deploymentUrl": "https://procanje.app/iniciar-sesion"
+                }
+            },
+            {
+                "title": "Propiedades Pulso Inversor - Corredora de Propiedades",
+                "description": "Sitio web desarrollado para Propiedades Pulso Inversor, enfocado en ofrecer servicios personalizados y eficientes de corretaje para comprar, arrendar o invertir con confianza y transparencia.",
+                "image": "/images/projects/covers/propiedades-pulso-inversor.svg",
+                "alt": "Vista previa del proyecto inmobiliario",
+                "technologies": [
+                    "React.js",
+                    "Bootstrap v5.0",
+                    "React-Query",
+                    "Sass"
+                ],
+                "links": {
+                    "websiteUrl": "https://pulsoinversor.cl/",
+                    "deploymentUrl": "https://webpage-propiedades-pulso-inversor.vercel.app/"
+                }
+            },
+            {
+                "title": "ACTECCU - Enfermedad Inflamatoria Intestinal en Chile",
+                "description": "Una agrupación científica chilena dedicada al estudio, difusión y tratamiento de la Enfermedad Inflamatoria Intestinal, al servicio de los profesionales y pacientes de todo el país.",
+                "image": "/images/projects/covers/acteccu.svg",
+                "alt": "Vista previa del proyecto ACTECCU",
+                "technologies": [
+                    "Next.js",
+                    "Bootstrap v5.0",
+                    "TypeScript",
+                    "Vercel"
+                ],
+                "links": {
+                    "websiteUrl": "https://www.acteccu.com/",
+                    "deploymentUrl": "https://www.acteccu.com/"
+                }
+            },
+            {
+                "title": "U-Food - Dutch Test",
+                "description": "Página web desarrollada para U-FOOD, con el objetivo de informar y facilitar el acceso a pruebas DUTCH para conocer el equilibrio hormonal y metabólico de forma simple y desde casa.",
+                "image": "/images/projects/covers/dutch-test.svg",
+                "alt": "Vista previa del proyecto inmobiliario",
+                "technologies": [
+                    "Next.js",
+                    "React.js",
+                    "Tailwind CSS",
+                    "cPanel"
+                ],
+                "links": {
+                    "websiteUrl": "https://u-food.cl/dutch",
+                    "deploymentUrl": "https://u-food.cl/dutch"
+                }
+            }
+        ]
+    },
+    "Skills": {
+        "title": "Skills",
+        "subtitle": "Technologies I master and apply in real projects."
+    },
+    "Brands": {
+        "title": "Empresas",
+        "subtitle": "Compañías en las que he trabajado",
+        "list": [
+            {
+                "image": "/images/brands/falabella.svg",
+                "alt": "Falabella",
+                "url": "https://www.falabella.com/"
+            },
+            {
+                "image": "/images/brands/bidata.svg",
+                "alt": "BIDATA SPA",
+                "url": "https://www.bidata.cl/"
+            },
+            {
+                "image": "/images/brands/acteccu.svg",
+                "alt": "ACTECCU",
+                "url": "https://www.acteccu.com/"
+            }
+        ]
+    },
+    "Footer": {
+        "author": {
+            "name": "José Ignacio Contreras Castro",
+            "message": "Built by"
+        },
+        "copyright": "All rights reserved."
     }
 }

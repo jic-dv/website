@@ -1,0 +1,46 @@
+{
+    "extends": [
+        "next/core-web-vitals",
+        "next",
+        "next/typescript",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "plugins": ["@typescript-eslint", "unused-imports"],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ],
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-uses-react": "off",
+        "react/jsx-uses-vars": "error",
+        "@typescript-eslint/no-unused-vars": [
+            "error",
+            { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
+        ],
+        "unused-imports/no-unused-imports": "error",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-explicit-any": "warn",
+        "@typescript-eslint/consistent-type-imports": "warn",
+        "no-console": ["warn", { "allow": ["warn", "error"] }],
+        "no-debugger": "error",
+        "no-restricted-imports": [
+            "error",
+            {
+                "patterns": ["../*"]
+            }
+        ]
+    },
+    "overrides": [
+        {
+            "files": ["**/*.ts", "**/*.tsx"],
+            "rules": {
+                "no-undef": "off"
+            }
+        }
+    ],
+    "ignorePatterns": ["node_modules/", "dist/", ".next/", "out/", "public/", "coverage/"]
+}
