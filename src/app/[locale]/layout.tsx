@@ -23,7 +23,7 @@ export default async function LocaleLayout({
     }
 
     return (
-        <html lang={locale} suppressHydrationWarning>
+        <html lang={locale} suppressHydrationWarning data-scroll-behavior='smooth'>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-background text-foreground`}
             >

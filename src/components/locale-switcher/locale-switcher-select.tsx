@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/select'
 import { Locale, routing, usePathname, useRouter } from '@/i18n/routing'
 import clsx from 'clsx'
-import { useParams } from 'next/navigation'
+// import { useParams } from 'next/navigation'
 import { ReactNode } from 'react'
 
 type Props = {
@@ -22,10 +22,10 @@ type Props = {
 export default function LocaleSwitcherSelect({ defaultValue, label, className = 'w-auto' }: Props) {
     const router = useRouter()
     const pathname = usePathname()
-    const params = useParams()
+    // const params = useParams()
 
     const onSelectChange = (nextLocale: string) => {
-        router.replace({ pathname, params }, { locale: nextLocale as Locale })
+        router.replace({ pathname }, { locale: nextLocale as Locale })
     }
 
     return (
