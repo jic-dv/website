@@ -4,14 +4,14 @@ import ScrollToTop from '@/components/scroll-to-top'
 import { ThemeProvider } from '@/components/theme-provider'
 import { Separator } from '@/components/ui/separator'
 import { geistMono, geistSans } from '@/fonts'
-import { routing } from '@/i18n/routing'
+import { Locale, routing } from '@/i18n/routing'
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import './globals.css'
 import { seo } from './seo'
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
+export async function generateMetadata({ params }: { params: { locale: Locale } }) {
     const { locale } = await params
     const messages = await getMessages({ locale })
     const metadata = messages?.Metadata
@@ -69,7 +69,7 @@ export default async function LocaleLayout({
 // import { ThemeProvider } from '@/components/theme-provider'
 // import { Separator } from '@/components/ui/separator'
 // import { geistMono, geistSans } from '@/fonts'
-// import { routing } from '@/i18n/routing'
+// import { Locale, routing } from '@/i18n/routing'
 // import { Metadata } from 'next'
 // import { NextIntlClientProvider, hasLocale } from 'next-intl'
 // import { getMessages } from 'next-intl/server'
@@ -79,7 +79,7 @@ export default async function LocaleLayout({
 // export async function generateMetadata({
 //     params,
 // }: {
-//     params: { locale: 'en' | 'es' }
+//     params: { locale: Locale }
 // }): Promise<Metadata> {
 //     const { locale } = params
 
