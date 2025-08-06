@@ -37,11 +37,11 @@ export default function Timeline() {
 
                         {/* Contenido */}
                         <div className='pt-2 sm:pt-1 space-y-3'>
-                            <p className='text-base sm:text-lg font-semibold text-accent-foreground lg:text-white'>
+                            <p className='text-xs sm:text-md font-semibold text-accent-foreground lg:text-white'>
                                 {company.name}
                             </p>
                             <div>
-                                <h3 className='text-lg sm:text-xl font-medium text-accent-foreground lg:text-white/80'>
+                                <h3 className='text-md sm:text-lg font-medium text-accent-foreground lg:text-white/80'>
                                     {company.role}
                                 </h3>
                                 <div className='flex items-center gap-2 mt-1 text-sm text-accent-foreground lg:text-neutral-300'>
@@ -49,7 +49,7 @@ export default function Timeline() {
                                     <span>{company.years}</span>
                                 </div>
                             </div>
-                            <ul className='list-disc pl-4 text-sm sm:text-base text-neutral-400'>
+                            <ul className='list-disc pl-4 text-xs sm:text-base text-neutral-400'>
                                 {company.description.map((item, i) => (
                                     <li key={i}>{item}</li>
                                 ))}

@@ -28,7 +28,7 @@ export default function ScrollToTop() {
             size='icon'
             aria-label='Scroll to top'
             className={clsx(
-                'fixed bottom-6 right-6 z-50 transition-opacity cursor-pointer',
+                'fixed bottom-10 right-10 z-50 transition-opacity cursor-pointer',
                 isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none',
             )}
         >
