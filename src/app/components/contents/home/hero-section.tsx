@@ -9,9 +9,11 @@ import { FaLinkedin } from 'react-icons/fa'
 import { HiDownload } from 'react-icons/hi'
 import AnimatedGreetingBadge from './components/animated-greeting-badge'
 import Timeline from './components/time-line'
+import TypeWritter from './components/type-writter'
 
 export default function HeroSection() {
     const t = useTranslations('Hero')
+    const tProfile = useTranslations('Profile')
 
     return (
         <Section id='hero' className='relative'>
@@ -48,6 +50,23 @@ export default function HeroSection() {
                             </motion.span>
                         ))}
                 </h1>
+
+                <motion.p
+                    initial={{
+                        opacity: 0,
+                    }}
+                    animate={{
+                        opacity: 1,
+                    }}
+                    transition={{
+                        duration: 0.3,
+                        delay: 0.8,
+                    }}
+                    className='relative z-10 mx-auto max-w-xl text-center text-lg font-normal text-neutral-600 dark:text-neutral-400 my-3 lg:my-5'
+                >
+                    <TypeWritter />
+                </motion.p>
+
                 <motion.p
                     initial={{
                         opacity: 0,
@@ -138,7 +157,7 @@ export default function HeroSection() {
                             <h3 className='text-sm font-semibold text-white'>
                                 José Ignacio Contreras
                             </h3>
-                            <p className='text-xs text-neutral-400'>Ingeniero en Informática</p>
+                            <p className='text-xs text-neutral-400'>{tProfile('title')}</p>
                             <p className='text-xs text-neutral-400'>Frontend React.js Developer</p>
                         </div>
                     </motion.div>

@@ -16,6 +16,7 @@ import {
     SheetTrigger,
 } from '@/components/ui/sheet'
 import { useNavigation } from '@/data//navigation'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { IoMenuSharp } from 'react-icons/io5'
 import ExtarnalLinks from '../top-menu/extarnal-links'
@@ -46,6 +47,8 @@ function renderMobileMenuItem(item: MenuItem) {
 }
 
 export default function MobileMenu() {
+    const t = useTranslations('Sheet')
+
     const navigation = useNavigation()
     return (
         <div className='block lg:hidden'>
@@ -61,7 +64,10 @@ export default function MobileMenu() {
                             <SheetTitle>
                                 <Logo />
                             </SheetTitle>
-                            <SheetDescription>José Contreras | Frontend Developer</SheetDescription>
+                            <SheetDescription>
+                                {/* José Contreras | Frontend Developer */}
+                                {t('title')}
+                            </SheetDescription>
                         </SheetHeader>
 
                         <div className='flex flex-col gap-6 p-4'>

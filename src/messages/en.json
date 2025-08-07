@@ -182,5 +182,11 @@
             "message": "Built by"
         },
         "copyright": "All rights reserved."
+    },
+    "Sheet": {
+        "title": "José Contreras | React.js Developer"
+    },
+    "Profile": {
+        "title": "Computer Engineer"
     }
 }

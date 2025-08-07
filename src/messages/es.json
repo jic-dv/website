@@ -182,5 +182,11 @@
             "message": "Desarrollada por"
         },
         "copyright": "Todos los derechos reservados."
+    },
+    "Sheet": {
+        "title": "José Contreras | Desarrollador React.js"
+    },
+    "Profile": {
+        "title": "Ingeniero en Informática"
     }
 }
